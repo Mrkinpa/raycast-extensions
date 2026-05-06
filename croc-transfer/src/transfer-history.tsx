@@ -446,7 +446,7 @@ function RecordItem({
             />
             {record.type === "send" && filesExist && (
               <Action
-                title="Re-send Files"
+                title="Re-Send Files"
                 icon={Icon.Upload}
                 shortcut={{ modifiers: ["cmd"], key: "r" }}
                 onAction={() => reSend(record)}
